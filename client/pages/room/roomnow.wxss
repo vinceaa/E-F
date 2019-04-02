@@ -1,0 +1,167 @@
+/* pages/room/room.wxss */
+.bg{
+  width:713rpx;
+  margin:0 auto;
+}
+.back{
+  width:100%;
+  background-color: #ffffff;
+  position: relative;
+  margin-top:23rpx;
+}
+.imgb{
+  width:713rpx;
+  height:365rpx;
+  border-radius: 3%;
+  padding-bottom:110rpx;
+}
+.imga{
+  width:73rpx;
+  height:73rpx;
+  position: relative;
+  bottom:100rpx;
+  left:39rpx;
+}
+.name{
+  font-family: '微软雅黑 Regular';
+  font-size:45rpx;
+  color:#ffffff;
+  position: relative;
+  bottom:180rpx;
+  left:125rpx;
+}
+.tuijian{
+  font-family: '微软雅黑 Regular';
+  font-size: 45rpx;
+  color:#000000;
+  font-weight: bloder; 
+  position: relative;
+  bottom:115rpx;
+  left:16rpx;
+}
+.imgc{
+  width:315rpx;
+  height:315rpx;
+  position: relative;
+  /* bottom:164rpx; */
+  border-radius: 3%;
+  padding-bottom:20rpx;
+
+}
+.imgd{
+  width:50rpx;
+  height:30rpx;
+  position: relative;
+  bottom:50rpx;
+  left:30rpx;
+}
+.clickname{
+  font-family: '微软雅黑 Regular';
+  font-size:40rpx;
+  color:#ffffff;
+  position: relative;
+  bottom:155rpx;
+  left:30rpx;
+}
+.clicknum{
+  font-family: '微软雅黑 Regular';
+  font-size:40rpx;
+  color:#ffffff;
+  position: relative;
+  bottom:155rpx;
+  left:95rpx;
+}
+
+
+.imge{
+  width:315rpx;
+  height:315rpx;
+  position: relative;
+  bottom:20rpx; 
+  border-radius: 3%;
+  left:83rpx;
+}
+.imgf{
+  width:50rpx;
+  height:30rpx;
+  position: relative;
+  bottom:50rpx;
+  left:27rpx;
+}
+.clickname1{
+  font-family: '微软雅黑 Regular';
+  font-size:40rpx;
+  color:#ffffff; 
+  position: relative;
+  bottom:155rpx;
+  left:25rpx;
+}
+.clicknum1{
+  font-family: '微软雅黑 Regular';
+  font-size:40rpx;
+  color:#ffffff; 
+  position: relative;
+  bottom:155rpx;
+  left:90rpx;
+}
+
+.imgg{
+  width:315rpx;
+  height:315rpx;
+  position: relative;
+  border-radius: 3%;
+}
+.imgh{
+  width:50rpx;
+  height:30rpx;
+  position: relative;
+  bottom:50rpx;
+  left:30rpx;
+}
+.clickname2{
+  font-family: '微软雅黑 Regular';
+  font-size:40rpx;
+  color:#ffffff;
+  position: relative;
+  bottom:150rpx;
+  left:30rpx;
+}
+.clicknum2{
+  font-family: '微软雅黑 Regular';
+  font-size:40rpx;
+  color:#ffffff;
+  position: relative;
+  bottom:155rpx;
+  left:92rpx;
+}
+
+.imgi{
+  width:315rpx;
+  height:315rpx;
+  position: relative;
+  border-radius: 3%;
+  left: 82rpx;
+}
+.imgj{
+  width:50rpx;
+  height:30rpx;
+  position: relative;
+  bottom:50rpx;
+  left:30rpx;
+}
+.clickname3{
+  font-family: '微软雅黑 Regular';
+  font-size:40rpx;
+  color:#ffffff;
+  position: relative;
+  bottom:155rpx;
+  left:30rpx;
+}
+.clicknum3{
+  font-family: '微软雅黑 Regular';
+  font-size:40rpx;
+  color:#ffffff;
+  position: relative;
+  bottom:155rpx;
+  left:92rpx;
+}

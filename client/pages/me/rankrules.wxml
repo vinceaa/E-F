@@ -1,0 +1,37 @@
+<!--pages/me/rankrules.wxml-->
+<view class="rules">
+  <text class="credits-regular">积分段位规则：</text>
+</view>
+<view class="rules">
+  <view>
+    <text class="regular">1.顽强青铜：0-100</text>
+  </view>
+  <view>
+    <text class="regular">2.巧思白银：101-300</text>
+  </view>
+  <view>
+    <text class="regular">3.聪慧黄金：301-600</text>
+  </view>
+  <view>
+    <text class="regular">4.无暇钻石：601-1200</text>
+  </view>
+  <view>
+    <text class="regular">5.智者大师：1201-2000</text>
+  </view>
+  <view>
+    <text class="regular">6.万卷宗师：2001-3000</text>
+  </view>
+  <view>
+    <text class="regular">7.博学史诗：3001-5000</text>
+  </view>
+  <view>
+    <text class="regular">8.智慧传说：5001-8000</text>
+  </view>
+  <view>
+    <text class="regular">9.超神王者：8000-</text>
+  </view>
+</view>
+
+
+
+

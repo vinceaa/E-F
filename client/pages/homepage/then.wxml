@@ -1,0 +1,29 @@
+<!--pages/homepage/then.wxml-->
+<view class="wrap"></view>
+<view class="then">
+    <view>
+        <view class="then-top">
+            <text class="font">{{word}}</text>
+        </view>
+        <view class="sep-then"></view>
+        <view class="then-top">
+            <text class="font-then">{{info}}</text>
+        </view>
+    </view>
+    <view class="wrap"></view>
+    <view wx:for='{{term_list}}'>
+        <view class="then-top">
+            <text class="font-then">{{item.terms_content}}</text>
+        </view>
+        <view class="then-top">
+            <text class="then-fonts">作者：{{item.username}}</text>
+        </view>
+        <view class="sep-then"></view>
+        <view class="sep-then"></view>
+        <view class="sep-then"></view>
+
+    </view>
+
+
+
+</view>

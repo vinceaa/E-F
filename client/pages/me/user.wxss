@@ -1,0 +1,136 @@
+/* pages/me/user.wxss */
+
+.div {
+    height: 38rpx;
+    background: #f5f5f5;
+    border-top: 3rpx #ccc solid;
+    border-bottom: 3rpx #ccc solid;
+    font-size: 23rpx;
+}
+
+.user-top {
+    padding: 15rpx 15rpx;
+    height: 542rpx;
+    position: relative;
+}
+
+image {
+    width: 100%;
+    height: 100%;
+}
+
+.user-img {
+    overflow: hidden;
+    width: 250rpx;
+    height: 250rpx;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 8rpx solid #e3f2fd;
+}
+
+.radius {
+    border-radius: 300rpx;
+}
+
+.name {
+    padding: 25rpx 25rpx;
+}
+
+.top-bottom {
+    width: 654rpx;
+    margin-left: 10rpx;
+    background: #eee;
+    height: 3rpx;
+}
+
+.user-font {
+    font-size: 25rpx;
+}
+
+.user-footer1 {
+    padding: 0 15rpx;
+    height: 200rpx;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.user-footer2 {
+    padding: 0 15rpx;
+    height: 310rpx;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.list {
+    margin: 0;
+    position: relative;
+}
+
+.user-foote1 .list {
+    flex: 1;
+}
+
+.user-foote1 .list {
+    flex: 1;
+}
+
+.user-top ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.user-top li {
+    float: left;
+    flex: 1;
+    text-align: center;
+}
+
+.datalist {
+    position: absolute;
+    bottom: 80rpx;
+}
+
+.datalist li {
+    font-size: 50rpx;
+}
+
+.dataname {
+    position: absolute;
+    bottom: 20rpx;
+}
+
+.dataname li {
+    font-size: 38rpx;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box {
+    width: 86%;
+    margin: 20rpx auto;
+}
+
+.text {
+    text-align: center;
+}
+
+.list {
+    margin-bottom: 20rpx;
+    margin: 15rpx 0 15rpx 75rpx;
+    font-size: 30rpx;
+}
+
+.pos {
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 150rpx;
+    font-size: 30rpx;
+}

@@ -1,0 +1,151 @@
+/* pages/wxml/index.wxss */
+
+/* top start */
+
+page {
+    background: #f4f4f4;
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    position: relative;
+    top:-34rpx;
+}
+
+.search {
+    width: 650rpx;
+    height: 60rpx;
+    background: white;
+    font-size: 20rpx;
+    border-radius: 30rpx;
+    margin: 20rpx auto 0 auto;
+}
+
+.center {
+    text-align: center;
+    font-size: 20rpx;
+    color: #c0c0c0;
+}
+
+.middle {
+    width: 750rpx;
+    height: 910rpx;
+}
+
+.middle-top {
+    background: #fff;
+    width: 86%;
+    height: 60rpx;
+    text-align: center;
+    border-radius: 10rpx;
+}
+
+.middle-footer {
+    margin: 20rpx 0;
+    background: #fff;
+    border-radius: 10rpx;
+    width: 86%;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    left: 40%;
+    top: 73rpx;
+}
+
+.image {
+    margin-left: 32rpx;
+    margin-top: 18rpx;
+    width: 164rpx;
+    height: 164rpx;
+    border-radius: 10rpx;
+}
+
+.dispate {
+    width: 720rpx;
+    margin-left: 10rpx;
+    background: #ccc;
+    height: 3rpx;
+}
+
+.recommand {
+    font-size: 25rpx;
+}
+
+.homepage-middle {
+    height: 190rpx;
+    position: relative;
+}
+
+.swiper {
+    width: 100%;
+    height: 350rpx;
+}
+
+.slide-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10rpx;
+}
+
+.scroll {
+    height: 450px;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 0rpx;
+    height: 0rpx;
+    color: transparent;
+}
+
+/* .scroll::-webkit-scrollbar-thumb{
+  height: 25px;  
+  background-color: #ddd;  
+  -webkit-border-radius: 4px;  
+}
+.scroll::-webkit-scrollbar-track-piece{
+  background-color: #AEAEAE;  
+  -webkit-border-radius: 5px;  
+} */
+
+.box {
+    width: 86%;
+    margin: 20rpx auto;
+}
+
+.searchImg {
+    width: 20rpx;
+    height: 20rpx;
+    position: relative;
+    top: 72rpx;
+    left: 32%;
+    z-index: 20;
+}
+
+.admin {
+    position: absolute;
+    width: 289rpx;
+    height: 46rpx;
+    /* border: 1px solid black; */
+    right: -80rpx;
+    top: 131rpx;
+    color: lightblue;
+}
+
+.admin-ceil {
+    margin-right: 10rpx;
+    font-size: 35rpx;
+}
+
+.loading-ceil {
+    width: 100rpx;
+    height: 100rpx;
+    position: fixed;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+

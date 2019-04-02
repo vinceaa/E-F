@@ -1,0 +1,27 @@
+<view class='bg'>
+    <view class='back'>
+        <view class='history'>
+            <view class='title'>{{historys.word}}</view>
+            <view class='date'>{{historys.word_date}}</view>
+            <view class='content cf'>
+                <view>{{historys.content}}</view>
+                <view class="dic">
+                    <text class="explain f">释义：</text>
+                </view>
+                <view wx:if='{{historys.word_string.basic.phonetic}}' class="show-dic yf">
+                    /{{historys.word_string.basic.phonetic}}/
+                </view>
+                <view wx:else class="show-dic yf">
+                    {{historys.word}}
+                </view>
+                <view class="show-dic f">
+                    <view wx:for='{{historys.word_string.basic.explains?historys.word_string.basic.explains:trans}}' class="show-dic f" wx:key="this">
+                        <view class="show-dic f">
+                            {{item}}
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,24 @@
+/* pages/note/note2.wxss */
+
+.editor{
+  width:700rpx;
+  height:580rpx;
+  padding:26rpx 25rpx;
+}
+
+.textarea-note{
+  width:700rpx;
+  height:550rpx;
+  border:8rpx #E3F2FD solid;
+  font-size:28rpx;
+}
+.save{
+   border:2rpx #E3F2FD solid;
+   heigth:15rpx;
+   width:400rpx;
+   background:#E3F2FD;
+   font-size:28rpx;
+}
+
+
+

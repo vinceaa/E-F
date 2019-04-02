@@ -1,0 +1,86 @@
+<view class="user-top box">
+    <!-- <button open-type="getUserInfo" bindgetuserinfo='getUserInfo'>数据库授权</button>  -->
+    <view class="radius">
+        <view class="user-img">
+            <image src="{{avatar}}" class="user-img-title"></image>
+        </view>
+
+        <view class="text">
+            <p style="font-size:45rpx;">{{username}}</p>
+        </view>
+        <view class="text">
+            <p style="font-size:20rpx;color:grey;">{{me_lista.userinfo}}</p>
+        </view>
+    </view>
+    <!--  <input value="{{listarr.name}}" class="name"></input> -->
+
+    <ul class="datalist clearfix">
+        <li>
+            <image src="{{domain}}/assets/images/jifen.png" class="img"></image>
+        </li>
+        <li>
+            <image src="{{domain}}/assets/images/zan.png" class="img"></image>
+        </li>
+        <li>
+            <image src="{{domain}}/assets/images/yanjing.png" class="img imgYan"></image>
+        </li>
+        <li>
+            <navigator url="/pages/me/user">
+                <view class="display">
+                    <image src="{{domain}}/assets/images/personal.png" class="img"></image>
+                </view>
+            </navigator>
+        </li>
+    </ul>
+    <ul class="dataname clearfix">
+        <li>{{score}}积分</li>
+        <li>{{thubnum}}获赞</li>
+        <li>{{readnum}}阅读</li>
+        <li>
+            <navigator url="/pages/me/user">
+                <view class="display">
+                    <text class="fonts">个人信息</text>
+                </view>
+            </navigator>
+        </li>
+    </ul>
+
+
+</view>
+
+
+
+
+<!-- <view class="div"></view> -->
+
+
+<view class="box">
+    <navigator url="/pages/me/credits">
+        <view class="me-details">
+            <text class="font-details">我的积分</text>
+            <image src="{{domain}}/assets/images/details.png" class="icon-details"></image>
+        </view>
+    </navigator>
+    <!-- <navigator url="/pages/note/more">
+        <view class="me-details">
+            <text class="font-details">我的收藏</text>
+            <image src="/images/details.png" class="icon-details"></image>
+        </view>
+    </navigator> -->
+    <view class="top-bottom"></view>
+    <navigator url="/pages/community/involve/involve">
+        <view class="me-details">
+            <text class="font-details">我的创作</text>
+            <image src="{{domain}}/assets/images/details.png" class="icon-details"></image>
+        </view>
+    </navigator>
+    <view class="top-bottom"></view>
+
+</view>
+<!-- <view class="div"></view> -->
+<view class="me-details box">
+    <text class="font-details s">客服热线：13104085863</text>
+     <image src="{{domain}}/assets/images/details.png" class="icon-details n"></image> 
+    <view class="top-bottom"></view>
+</view>
+<button hidden="{{ifHidden}}" open-type="getUserInfo" bindgetuserinfo='getUserInfo' class='login-btn'>点击进行授权获取您的头像和昵称</button>

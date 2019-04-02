@@ -1,0 +1,13 @@
+<view class='bg'>
+    <view class='back'>
+        <view class='history'>
+
+            <view class='title' style='word-break:break-all'>{{drafts.note_title}}</view>
+            <view class='date'>{{drafts.note_date}}</view>
+            <view class='content'>
+                <view class='wrap' style="white-space:pre-wrap;word-break:break-all">{{drafts.note_content}}</view>
+            </view>
+
+        </view>
+    </view>
+</view>

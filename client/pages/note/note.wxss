@@ -1,0 +1,148 @@
+/* page{  
+  background-color: transparent;  
+  width:100%;  
+  height:100%;  
+} 
+.whole{  
+  background-color: transparent;  
+  width:100%;  
+  height:100%;  
+}    */
+/* .note-top{
+  background:#ffcdd2;
+  height:185rpx;
+}
+.user{
+  width:250rpx;
+  height:250rpx;
+  padding:38rpx 245rpx 50rpx 245rpx;
+}
+.note-button{
+  width:330rpx;
+  height:105rpx;
+  background:#E3F2FD;
+  color:#ffcdd2;
+}
+.dis{
+  width:750rpx;
+  height:230rpx;
+  background:transparent;
+}
+.module{
+  font-size:32rpx;
+  font-weight:bold;
+}
+.dispqwe{
+  width:750rpx;
+  height:50rpx;
+  background:transparent;
+} */
+
+
+/* 新的css */
+
+/* html * {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+} */
+
+page{
+     height:100%; 
+}
+
+.b {
+    /*border: 1px solid black;*/
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9;
+}
+
+.header {
+    height: 30%;
+    width: 100%;
+}
+
+.me-main {
+    height: 761rpx;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: -85rpx;
+    background: #ffffff;
+    border-radius: 15rpx;
+}
+
+.user-avatar {
+    width: 244rpx;
+    height: 244rpx;
+    position: relative;
+    margin: 0 auto;
+    top: -121rpx;
+    border-radius: 50%;
+    border: 9rpx solid #E3F2FD;
+    display: block;
+}
+
+.note-info {
+    text-align: center;
+    font-size: 45rpx;
+    top: -100rpx;
+    position: relative;
+    font-weight: bold;
+}
+
+.content-board {
+    height: 111rpx;
+    width: 100%;
+    position: relative;
+    top: -82rpx;
+}
+
+.l-icon {
+    width: 47rpx;
+    height: 60rpx;
+    margin-left: 35rpx;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+
+
+.content {
+    display: inline-block;
+    font-size: 38rpx;
+    position: relative;
+    top: 15rpx;
+    margin-left: 36rpx;
+}
+
+.content-num {
+    position:absolute;
+    right:0rpx;
+    font-size:43rpx;
+    line-height:132rpx;
+    margin-right:60rpx;
+    width:50rpx;
+}
+
+.underline {
+    width: 600rpx;
+    position: absolute;
+    bottom: 7rpx;
+    left: 23rpx;
+    height: 10rpx;
+}
+
+
+
+
+
+

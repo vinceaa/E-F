@@ -1,0 +1,33 @@
+<view id='bg'>
+    <view id='bg1'>
+        <view class='ipt1'>
+            <input id='title' placeholder='标题' bindinput='onTitleInput'></input>
+        </view>
+        <!-- <image src='http://127.0.0.1/phptest/wxci/assets/uploads/e8a79b4dd7a5a42878d032c78ef1e244.jpg'></image> -->
+        <view>
+            <textarea maxlength='-1' value="{{text}}" class='ipt2' bindinput='onTextInput' placeholder='分享内容'>
+            </textarea>
+            <!-- <button  bindtap="chooseImage">ceui </button> -->
+            <view class='wrap-pic'>
+                <image  class='b' bindtap="chooseImage"src='{{domain}}/assets/images/pic.png' />
+                <text class='addimg'>添加图片</text>
+            </view>
+        </view>
+        <view class="submit-div">
+            <button bindtap="submit" class="submit">
+                <text class="note-save">提交</text>
+            </button>
+        </view>
+    </view>
+
+
+    <view class='pic-list'>
+        <view class='wrap-list' wx:for='{{pic_list}}' wx:key='item'>
+            <text class='close' bindtap='deleteMethod' data-index="{{index}}">x</text>
+            <image class='pic-ceil' data-src='{{item}}' bindtap='previewMethod' src='{{item}}'></image>
+        </view>
+    </view>
+
+    <!-- <image src='{{domain}}/assets/uploads/709f2238d5202a1cae626f6053c86a66.jpg'></image> -->
+
+</view>

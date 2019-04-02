@@ -1,0 +1,92 @@
+{
+  "pages": [
+    "pages/homepage/homepage",
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/homepage/search",
+    "pages/homepage/adminPublish",
+    "pages/homepage/adminEdit",
+    "pages/homepage/terms",
+    "pages/community/community",
+    "pages/note/note",
+    "pages/me/me",
+    "pages/me/user",
+    "pages/me/credits",
+    "pages/me/help",
+
+    "pages/me/rules",
+    "pages/me/rankrules",
+    
+    "pages/homepage/passage1",
+    "pages/note/more",
+    "pages/note/draftDetail",
+    "pages/note/note1",
+    "pages/note/note2",
+    "pages/note/drafts",
+    "pages/note/recycle",
+    "pages/homepage/then",
+    "pages/community/topic/topic",
+    "pages/community/rank/rank",
+    "pages/community/involve/involve",
+
+    "pages/community/share/share",
+    "pages/community/topic/topicdetail/topicdetail",
+    "pages/community/topic/publish/publish",
+    "pages/community/sharedetail/sharedetail",
+    "pages/community/involve/involveshare/involveshare",
+    "pages/community/involve/involvetopic/involvetopic",
+    "pages/history/detail",
+
+    "pages/room/room",
+    "pages/room/roomnow",
+    "pages/room/roompast",
+    "pages/room/roomdetail/roomdetail",
+    "pages/room/guest/intro"
+  
+  ],
+  "window": {
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E3F2FD",
+    "navigationBarTitleText": "E&F",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#54c9f4",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "selectedIconPath": "images/homepage2.png",
+        "iconPath": "images/homepage1.png",
+        "pagePath": "pages/homepage/homepage",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/community2.png",
+        "iconPath": "images/community1.png",
+        "pagePath": "pages/community/community",
+        "text": "社区"
+      },
+      {
+        "selectedIconPath": "images/room2.png",
+        "iconPath": "images/room1.png",
+        "pagePath": "pages/room/room",
+        "text": "直播间"
+      },
+      {
+        "selectedIconPath": "images/note2.png",
+        "iconPath": "images/note1.png",
+        "pagePath": "pages/note/note",
+        "text": "笔记"
+      },
+      {
+        "selectedIconPath": "images/me2.png",
+        "iconPath": "images/me1.png",
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+<view class="search">
+    <input class="search-page" type="text" bindinput='infoInput' placeholder="创建属于你的关于 {{word}} 的词条！">
+    </input>
+</view>
+<view class="search-header">
+</view>
+<view class="wrapper">
+    <button class="buutton" bindtap='creatMethod'>
+        <text class="trans">创建</text>
+    </button>
+</view>
+<view class="search-header">
+</view>
+<view class="web">
+</view>

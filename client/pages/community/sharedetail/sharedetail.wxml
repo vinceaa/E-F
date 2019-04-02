@@ -1,0 +1,63 @@
+<view class='loading' hidden="{{ifLoading}}">
+    <image class='loading-ceil' src='/images/loading.gif'></image>
+</view>
+
+<view class='back'>
+    <view class='title'>
+        <text class='t'>
+            {{share.share_title}}
+        </text>
+
+
+        <view class='kuai'>
+            <image class='c' src='{{share.avatar}}'></image>
+            <!-- <image class='c' src='{{experience.user_avatar}}'></image> -->
+            <view class='name'>{{share.username}}</view>
+
+
+
+            <view class='content'>
+                <!-- <view style='white-space:pre-line;word-break:break-all'>{{share.share_content}}</view>  -->
+                <view style='white-space:pre-line;word-break:break-all'>
+                    <!-- {{share.share_content}} -->
+                    <import src="/towxml/entry.wxml" />
+                    <template is="entry" data="{{...article}}" />
+                </view>
+
+            </view>
+
+
+
+
+            <view class='date'>{{share.share_date}}</view>
+        </view>
+
+        <view class='collect-main'>
+            <image src="{{domain}}/assets/images/comment.png" class="icon-comment b" />
+            <span class='comment-num'>{{reply_num}}</span>
+            <image src="{{domain}}/assets/images/thumb.png" class="icon-thumb b" bindtap='thumbMethod' />
+            <span class='thumb-num'>{{thumb_num}}</span>
+        </view>
+
+        <view class='reply-area'>评论区</view>
+
+        <view class='kuai kuai1' wx:for='{{replys}}' wx:key='item'>
+            <image class='c' src='{{item.avatar}}'></image>
+            <view class='name'>{{item.username}}</view>
+            <view class='content'>
+                <view>{{item.reply_content}}</view>
+            </view>
+            <view class='date'>{{item.reply_date}}</view>
+        </view>
+
+
+        <view class='reply-input'>
+            <input class='reply' bindinput='inputMethod' value="{{reply_content}}"></input>
+        </view>
+
+        <view class='reply-button' bindtap='replyMethod'>
+            回复
+        </view>
+    </view>
+
+</view>

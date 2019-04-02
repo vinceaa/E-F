@@ -1,0 +1,12 @@
+<!--pages/note/note1.wxml-->
+
+<view class="editor">
+<input placeholder='输入笔记的标题' class='input-note-title' bindinput='inputTitle'></input>
+<textarea maxlength='-1' type="text" bindinput='inputMethod' placeholder="编辑写下你的心得，一起学习进步吧！" class="input-note">
+</textarea>
+</view>
+<button class="save" bindtap='show'>
+  <text class="note-save">保存</text>
+</button>
+
+

@@ -1,0 +1,206 @@
+page {
+    background-color: #f4f4f4;
+}
+
+#bg1 {
+    width: 679rpx;
+    margin: 0 auto;
+}
+
+.ipt1 {
+    height: 88rpx;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    top: 22rpx;
+}
+
+.ipt2 {
+    height: 680rpx;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    top: 40rpx;
+}
+
+.b {
+    width: 122rpx;
+    height: 103rpx;
+    position: relative;
+    bottom: 120rpx;
+    margin-left: 45rpx;
+    z-index: 333;
+}
+
+.addimg {
+    font-size: 20rpx;
+    font-family: '微软雅黑 Regular';
+    color: #606060;
+    position: relative;
+    bottom: 100rpx;
+    right: 100rpx;
+}
+
+.submit-div {
+    height: 140rpx;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.submit {
+    width: 277rpx;
+    height: 63rpx;
+    position: relative;
+    top: 71rpx;
+    background-color: #42aff4;
+}
+
+.note-save {
+    font-size: 30rpx;
+    font-family: '微软雅黑 Regular';
+    color: #fff;
+    position: relative;
+    bottom: 20rpx;
+}
+
+.pic-list {
+    position: relative;
+    width: 100%;
+    height: 100rpx;
+    /* border: 1px solid black; */
+}
+
+.pic-ceil {
+    position: relative;
+    display: inline-block;
+    width: 172rpx;
+    height: 172rpx;
+    margin-right: 10rpx;
+    border: 1px solid black;
+    margin-bottom: 21rpx;
+}
+
+.wrap-list {
+    position: relative;
+    display: inline-block;
+}
+
+.close {
+    position: absolute;
+    top: -26rpx;
+    left: 74px;
+    background: #f52236;
+    border-radius: 50%;
+    width: 44rpx;
+    height: 44rpx;
+    display: block;
+    text-align: center;
+    /* line-height: 44rpx; */
+    z-index: 2;
+    color: white;
+    font-size: 30rpx;
+}
+
+.admin-slide {
+    position: relative;
+    top: 100rpx;
+}
+
+.s {
+    right: 140rpx;
+}
+
+.tt {
+    left: 200rpx;
+}
+
+.t {
+    left: -338rpx;
+    top: -24rpx;
+    padding: 10rpx;
+    background: lightblue;
+    border-radius: 15rpx;
+}
+
+.tn {
+    left: 34rpx;
+    top: -30rpx;
+}
+
+.bn {
+    position: relative;
+    left: -66rpx;
+}
+
+.tts {
+    left: 394rpx;
+    position: relative;
+    font-size: 29rpx;
+    top: -126rpx;
+    display: inline-block;
+}
+
+.sn {
+    font-size: 29rpx;
+    color: black;
+    top: -78rpx;
+    left: -182rpx;
+}
+
+.pic-set {
+    width: 100%;
+    height: 400rpx;
+    /* border: 1rpx solid black; */
+    top: 52rpx;
+    position: relative;
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 150rpx;
+    height: 180rpx;
+}
+
+.pic1 {
+    top: 20rpx;
+    left: 10%;
+}
+
+.pic2 {
+    top: 20rpx;
+    left: 62%;
+}
+
+.pic3 {
+    top: 54%;
+    left: 10%;
+}
+
+.pic4 {
+    top: 54%;
+    left: 62%;
+}
+
+.pic1-ceil, .pic2-ceil, .pic3-ceil, .pic4-ceil {
+    width: 122rpx;
+    height: 103rpx;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.info {
+    font-size: 20rpx;
+    font-family: '微软雅黑 Regular';
+    color: #606060;
+    position: relative;
+    display: inline-block;
+    top: -22rpx;
+    left: 23rpx;
+}
+
+.h, .c {
+    font-size: 25rpx;
+    left: -40rpx;
+    width: 300rpx;
+}

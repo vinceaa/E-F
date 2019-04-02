@@ -1,0 +1,59 @@
+<!-- <view id='box1'>
+    <view id='box2'>
+        <view id='frank' class='rank'>
+            <view class='ranktext'>
+                好友排行
+            </view>
+        </view>
+        <view id='arank' class='rank'>
+            <view class='ranktext'>
+                全部排行
+            </view>
+        </view>
+    </view>
+</view>
+
+<view id='ranklist'>
+    <scroll-view id='list1' class='rnklst'>
+        <view wx:for='{{friend}}' wx:key='{{index}}'>
+            <view class='item'>
+                <view class='rnum'>
+                    <text class="hot">{{item.hot}}</text>
+                </view>
+                <image class='himage' src='{{item.himage}}'>
+                </image>
+                <view class='name'>{{item.name}}
+                </view>
+            </view>
+
+        </view>
+
+    </scroll-view>
+    <scroll-view id='list2' class='rnklst'>
+        <view wx:for='{{all}}' wx:key='{{index}}'>
+            <view class='item'>
+                <view class='rnum'>
+                    <text class="hot">{{item.hot}}</text>
+                </view>
+                <image class='himage' src='{{item.himage}}'>
+                </image>
+                <view class='name'>{{item.name}}
+                </view>
+            </view>
+
+        </view>
+
+    </scroll-view>
+</view> -->
+
+
+<view class='header'>
+    <view class='sencond'>
+        <view class='avatar-second'></view>
+        <view class='rank-pic'></view>
+        <text>假面超人</text>
+        <view class='white-love-second'></view>
+    </view>
+    <view class='champion'>第一</view>
+    <view class='third'>第三</view>
+</view>

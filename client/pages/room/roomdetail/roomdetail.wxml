@@ -1,0 +1,75 @@
+<!--pages/room/roomdetail/roomdetail.wxml-->
+<!-- <text>pages/room/roomdetail/roomdetail.wxml</text> -->
+
+<view class='bg'>
+    <image class='imgbig' src='{{domain}}/assets/images/zhibodetail.jpg'>
+        <image class='img1' src='{{domain}}/assets/images/detail1.png'></image>
+        <image class='img2' src='{{domain}}/assets/images/detail2.png'></image>
+        <image bindtap='show' class='img3' src='{{domain}}/assets/images/detail3.png'></image>
+        <image bindtap='show' class='img4' src='{{domain}}/assets/images/detail4.png'></image>
+        <image bindtap='show' class='img5' src='{{domain}}/assets/images/detail5.png'></image>
+        <image class='img6' src='{{domain}}/assets/images/detail6.png'></image>
+        <!-- <image class='img7' src='{{domain}}/assets/images/detail7.png'></image> -->
+        <view class='anniu'>
+            <view class='xiaoquan' style='left:{{left}}rpx;' bindtap='move'></view>
+        </view>
+        <image class='img8' src='{{domain}}/assets/images/detail8.png'></image>
+        <image class='img9' src='{{domain}}/assets/images/detail9.png'></image>
+        <image class='img10' src='{{domain}}/assets/images/detail10.png'></image>
+        <image class='img11' src='{{domain}}/assets/images/detail5.png'></image>
+        <image class='img12' src='{{domain}}/assets/images/detail4.png'></image>
+        <image class='img13' src='{{domain}}/assets/images/detail5.png'></image>
+        <image class='img14' src='{{domain}}/assets/images/detail3.png'></image>
+    </image>
+
+</view>
+
+
+<view class="modal-box" hidden="{{flag}}" bindtap="hide">
+
+    <view class="modal-body">
+        <view class='detailtitle'>礼物贡献榜</view>
+        <view class="modal-content">
+            <view class='center0'>
+                <image class='image1' src='{{domain}}/assets/images/detail4.png'></image>
+                <image class='image11' src='{{domain}}/assets/images/champion.png'></image>
+                <image class='image111' src='{{domain}}/assets/images/ranking1.png'></image>
+                <view class='firstname'>萌比女神i</view>
+                <image class='image1111' src='{{domain}}/assets/images/detail10.png'></image>
+                <view class='giftnum1'>5000</view>
+            </view>
+            <view class='left0'>
+                <image class='image2' src='{{domain}}/assets/images/detail3.png'></image>
+                <image class='image22' src='{{domain}}/assets/images/2.png'></image>
+                <image class='image222' src='{{domain}}/assets/images/ranking2.png'></image>
+                <view class='secondname'>变身BOY！</view>
+                <image class='image2222' src='{{domain}}/assets/images/detail10.png'></image>
+                <view class='giftnum2'>4000</view>
+            </view>
+            <view class='right0'>
+                <image class='image3' src='{{domain}}/assets/images/detail5.png'></image>
+                <image class='image33' src='{{domain}}/assets/images/3.png'></image>
+                <image class='image333' src='{{domain}}/assets/images/ranking3.png'></image>
+                <view class='thirdname'>寂静的天空</view>
+                <image class='image3333' src='{{domain}}/assets/images/detail10.png'></image>
+                <view class='giftnum3'>3000</view>
+            </view>
+
+
+            <view class='fourth'>
+                <view class='quan4'>4</view>
+                <image class='image4' src='{{domain}}/assets/images/detail5.png'></image>
+                <view class='name4'>卡卡的天空</view>
+                <image class='image44' src='{{domain}}/assets/images/detail10.png'></image>
+                <view class='giftnum4'>2000</view>
+            </view>
+            <view class='fifth'>
+                <view class='quan5'>5</view>
+                <image class='image5' src='{{domain}}/assets/images/detail4.png'></image>
+                <view class='name5'>卡卡的日常</view>
+                <image class='image55' src='{{domain}}/assets/images/detail10.png'></image>
+                <view class='giftnum5'>1000</view>
+            </view>
+        </view>
+    </view>
+</view>

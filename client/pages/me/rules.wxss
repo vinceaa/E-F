@@ -1,0 +1,24 @@
+/* pages/me/rules.wxss */
+.rules{
+  padding:15rpx 15rpx;
+}
+.credits-regular{
+  font-size:33rpx;
+  color:blueviolet;
+}
+.regular{
+  font-size:25rpx;
+  color:chocolate;
+}
+.warnning{
+  font-size:20rpx;
+  color:#ff0036;
+}
+
+
+
+
+
+
+
+

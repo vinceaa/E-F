@@ -1,0 +1,51 @@
+<view class="main b">
+    <image src="{{domain}}/assets/images/node_main.png" class='header b' />
+    <view class="me-main b">
+        <image src="{{avatar}}" class='user-avatar b' />
+        <view class="note-info">
+            我的笔记
+        </view>
+
+
+
+        <view class="content-board b">
+            <image src="{{domain}}/assets/images/book.png" class='l-icon l-icon-a b' />
+            <view class="content" bindtap='goNote'>
+                笔记
+            </view>
+            <span class='content-num b'></span>
+            <image src="{{domain}}/assets/images/dots.png" class='underline' />
+        </view>
+
+
+        <view class="content-board b">
+            <image src="{{domain}}/assets/images/draft.png" class='l-icon l-icon-b b' />
+            <view class="content" bindtap='goDraft'>
+                全部笔记
+            </view>
+            <span class='content-num b'>{{num_list.note_num}}</span>
+            <image src="{{domain}}/assets/images/dots.png" class='underline' />
+        </view>
+
+        <view class="content-board b">
+            <image src="{{domain}}/assets/images/recycle.png" class='l-icon l-icon-c b' />
+            <view class="content" bindtap='goRecycle'>
+                回收站
+            </view>
+            <span class='content-num b'>{{num_list.recycle_num}}</span>
+            <image src="{{domain}}/assets/images/dots.png" class='underline' />
+        </view>
+
+
+        <view class="content-board b">
+            <image src="{{domain}}/assets/images/history.png" class='l-icon .l-icon-d b' />
+            <view class="content" bindtap='goHistory'>
+                翻译记录
+            </view>
+            <span class='content-num b'>{{num_list.trans_num}}</span>
+            <image src="{{domain}}/assets/images/dots.png" class='underline' />
+        </view>
+
+
+    </view>
+</view>

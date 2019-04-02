@@ -1,0 +1,36 @@
+/* pages/note/note1.wxss */
+
+.editor {
+    width: 700rpx;
+    height: 580rpx;
+    padding: 26rpx 25rpx;
+}
+
+.input-note {
+    width: 700rpx;
+    height: 550rpx;
+    border: 8rpx #e3f2fd solid;
+    font-size: 28rpx;
+}
+
+.input-note-title {
+    width: 700rpx;
+    height: 50rpx;
+    border-top: 8rpx #e3f2fd solid;
+    border-left: 8rpx #e3f2fd solid;
+    border-right: 8rpx #e3f2fd solid;
+    font-size: 28rpx;
+}
+
+.save {
+    border: 2rpx #e3f2fd solid;
+    width: 400rpx;
+    background: #e3f2fd;
+    position: relative;
+    top: 56rpx;
+}
+
+.note-save {
+    font-size: 28rpx;
+    /* color:white; */
+}

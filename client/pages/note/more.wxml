@@ -1,0 +1,43 @@
+<view class='bg'>
+    <view class='back'>
+        <view class='history' wx:for='{{historys}}' wx:key='item' bindtap='goDetail' data-id="{{item.word_id}}">
+            <view class='title test'>{{item.word}}</view>
+            <view class='date'>{{item.word_date}}</view>
+            <view class='content'>
+                <!-- <view>{{item.content}}</view> -->
+                <!-- <view class="dic">
+                    <text class="explain">释义：</text>
+                </view>
+                <view wx:if='{{item.word_string.basic.phonetic}}' class="show-dic">
+                    /{{item.word_string.basic.phonetic}}/
+                </view>
+                <view class="show-dic">
+                    <view wx:for='{{item.word_string.basic.explains?item.word_string.basic.explains:trans}}' class="show-dic" wx:key="this">
+                        <view class="show-dic">
+                            {{item}}
+                        </view>
+                    </view>
+                </view> -->
+            </view>
+        </view>
+    </view>
+</view>
+
+<!-- <view wx:for="{{historys}}">
+    <view class="diction">
+        <view>{{item.word}}</view>
+        <view class="dic">
+            <text class="explain">释义：</text>
+        </view>
+        <view wx:if='{{item.word_string.basic.phonetic}}' class="show-dic">
+            /{{item.word_string.basic.phonetic}}/
+        </view>
+        <view class="show-dic">
+            <view wx:for='{{item.word_string.basic.explains?item.word_string.basic.explains:trans}}' class="show-dic" wx:key="this">
+                <view class="show-dic">
+                    {{item}}
+                </view>
+            </view>
+        </view>
+    </view>
+</view> -->

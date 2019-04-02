@@ -1,0 +1,185 @@
+page {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.bg {
+}
+
+.bg-detail {
+    position: relative;
+}
+
+.back-detail {
+    width: 704rpx;
+    margin: 0 auto;
+    position: relative;
+}
+
+.back {
+    width: 704rpx;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.title {
+    position: relative;
+    /* border-bottom: solid 2rpx whitesmoke; */
+}
+
+.t {
+    color: #42aff4;
+    top: 53rpx;
+    font-size: 38rpx;
+    font-weight: bold;
+}
+
+.collect {
+    float: right;
+    width: 130rpx;
+    height: 60rpx;
+    color: #fff;
+    margin-right: 50rpx;
+    border-radius: 10rpx;
+    font-size: 30rpx;
+    line-height: 60rpx;
+    font-weight: normal;
+    background-color: #48b2f4;
+    position: absolute;
+    right: 0rpx;
+}
+
+.kuai {
+    width: 100%;
+    /* height:302rpx; */
+    background-color: #fff;
+    position: relative;
+    top: 100rpx;
+    margin-bottom: 16rpx;
+    padding-bottom: 30rpx;
+}
+
+.c {
+    width: 96rpx;
+    height: 96rpx;
+    position: relative;
+    left: 22rpx;
+    top: 16rpx;
+}
+
+.name {
+    position: relative;
+    font-family: '微软雅黑 Regular';
+    font-size: 30rpx;
+    color: #000;
+    bottom: 60rpx;
+    left: 150rpx;
+    font-weight: normal;
+}
+
+.content {
+    position: relative;
+    font-family: '微软雅黑 Regular';
+    font-size: 30rpx;
+    color: #000;
+    bottom: 20rpx;
+    left: 26rpx;
+    font-weight: normal;
+    margin-right: 46rpx;
+}
+
+.date {
+    position: relative;
+    font-family: '微软雅黑 Regular';
+    font-size: 20rpx;
+    color: #000;
+    padding-bottom: -6rpx;
+    left: 476rpx;
+    font-weight: normal;
+}
+
+.collect-main {
+    /* border: 1px solid black; */
+    height: 63rpx;
+    width: 100%;
+    position: relative;
+    top: 177rpx;
+    left: 440rpx;
+}
+
+.kuai1 {
+    top: 200rpx;
+    position: relative;
+}
+
+.reply-input {
+    height: 56rpx;
+    width: 84%;
+    /* border: 1px solid black; */
+    border-radius: 32rpx;
+    background: white;
+    position: relative;
+    top: 217rpx;
+    margin-bottom: 31rpx;
+    display: inline-block;
+}
+
+.reply {
+    position: absolute;
+    /* border: 1px solid black; */
+    left: 37rpx;
+    font-size: 30rpx;
+    width: 88%;
+    outline: none;
+}
+
+.reply-button {
+    height: 56rpx;
+    width: 12%;
+    /* border: 1px solid black; */
+    border-radius: 32rpx;
+    background: white;
+    position: relative;
+    top: 170rpx;
+    margin-bottom: 31rpx;
+    font-size: 26rpx;
+    display: inline-block;
+    left: 15rpx;
+    text-align: center;
+    line-height: 55rpx;
+    color: grey;
+}
+
+.icon-comment, .icon-thumb {
+    position: relative;
+    display: inline-block;
+    width: 35rpx;
+    height: 40rpx;
+}
+
+.icon-thumb {
+    margin-left: 40rpx;
+}
+
+.comment-num, .thumb-num {
+    margin-left: 10rpx;
+    font-size: 20rpx;
+}
+
+.reply-area {
+    position: relative;
+    top: 195rpx;
+    color: #42aff4;
+
+}
+
+
+.loading-ceil {
+    width: 100rpx;
+    height: 100rpx;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}

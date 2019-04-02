@@ -1,0 +1,84 @@
+<!--pages/room/roompast.wxml-->
+<view class="box">
+    <ul class="pastUl">
+        <li class="pastLi clearfix">
+            <view class="pastLi-img">
+                <image src="{{domain}}/assets/images/212zhibo.png" class="pastLi-img1"></image>
+            </view>
+            <view class="pastLi-text">
+                <view>
+                    <text class="text-title">四级基础词汇学习</text>
+                </view>
+                <view>
+                    <text class="text-person">主讲师：吴莫愁</text>
+                </view>
+                <view>
+                    <text class="text-date">时间：2018-5-20</text>
+                </view>
+            </view>
+            <view class="pastLi-video">
+                <image src="{{domain}}/assets/images/bofang.png" class="pastLi-video1"></image>
+            </view>
+        </li>
+
+        <li class="pastLi clearfix">
+            <view class="pastLi-img">
+                <image src="{{domain}}/assets/images/c10.png" class="pastLi-img1"></image>
+            </view>
+            <view class="pastLi-text">
+                <view>
+                    <text class="text-title">四级基础词汇学习</text>
+                </view>
+                <view>
+                    <text class="text-person">主讲师：吴莫愁</text>
+                </view>
+                <view>
+                    <text class="text-date">时间：2018-5-20</text>
+                </view>
+            </view>
+            <view class="pastLi-video">
+                <image src="{{domain}}/assets/images/bofang.png" class="pastLi-video1"></image>
+            </view>
+        </li>
+
+        <li class="pastLi clearfix">
+            <view class="pastLi-img">
+                <image src="{{domain}}/assets/images/zhibo6.png" class="pastLi-img1"></image>
+            </view>
+            <view class="pastLi-text">
+                <view>
+                    <text class="text-title">四级基础词汇学习</text>
+                </view>
+                <view>
+                    <text class="text-person">主讲师：吴莫愁</text>
+                </view>
+                <view>
+                    <text class="text-date">时间：2018-5-20</text>
+                </view>
+            </view>
+            <view class="pastLi-video">
+                <image src="{{domain}}/assets/images/bofang.png" class="pastLi-video1"></image>
+            </view>
+        </li>
+
+        <li class="pastLi clearfix">
+            <view class="pastLi-img">
+                <image src="{{domain}}/assets/images/zhibo5.png" class="pastLi-img1"></image>
+            </view>
+            <view class="pastLi-text">
+                <view>
+                    <text class="text-title">四级基础词汇学习</text>
+                </view>
+                <view>
+                    <text class="text-person">主讲师：吴莫愁</text>
+                </view>
+                <view>
+                    <text class="text-date">时间：2018-5-20</text>
+                </view>
+            </view>
+            <view class="pastLi-video">
+                <image src="{{domain}}/assets/images/bofang.png" class="pastLi-video1"></image>
+            </view>
+        </li>
+    </ul>
+</view>

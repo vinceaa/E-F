@@ -1,0 +1,14 @@
+<view class='bg'>
+    <view class='back'>
+        <view class='history' wx:for='{{drafts}}' wx:key='item' bindlongpress='show' bindtap='goDetail' data-id='{{item.note_id}}'>
+
+            <view class='title test' >{{item.note_title}}</view>
+            <view class='date'>{{item.note_date}}</view>
+             <view class='content'>
+                <view class='test' style="word-break:break-all">{{item.note_content}}</view>
+            </view> 
+
+
+        </view>
+    </view>
+</view>

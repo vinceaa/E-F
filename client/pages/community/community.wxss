@@ -1,0 +1,194 @@
+page {
+    background-color: #f4f4f4;
+}
+
+.bg {
+    /* background-color: #f4f4f4; *//* height: 1500rpx; */
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.back1 {
+    width: 698rpx;
+    margin: 0 auto;
+}
+
+.middle-header {
+    margin-top: 26rpx;
+}
+
+#topic {
+    height: 208rpx;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 38rpx;
+    padding-top: 10rpx;
+}
+
+#imgall {
+    text-align: center;
+}
+
+#topic .img1 {
+    width: 110rpx;
+    height: 110rpx;
+    position: relative;
+    top: 10rpx;
+    right: 260rpx;
+}
+
+#topic .img2 {
+    width: 110rpx;
+    height: 110rpx;
+    position: relative;
+    bottom: 108rpx;
+    /* right:90rpx;  */
+    right: -204rpx;
+}
+
+#topic .img3 {
+    width: 110rpx;
+    height: 110rpx;
+    position: relative;
+    bottom: 226rpx;
+    left: 77rpx;
+}
+
+#topic .img4 {
+    width: 110rpx;
+    height: 110rpx;
+    position: relative;
+    bottom: 342rpx;
+    left: 240rpx;
+}
+
+#textall #text2 {
+    padding-right: 71rpx;
+}
+
+#textall #text3 {
+    padding-left: 0;
+}
+
+#textall #text4 {
+    padding-right: 77rpx;
+}
+
+#textall #text5 {
+    padding-right: 94rpx;
+}
+
+#textall .text1 {
+    padding-right: 87rpx;
+    position: relative;
+    bottom: 345rpx;
+    left: 30rpx;
+    font-size: 30rpx;
+    font-family: '微软雅黑 Regular';
+    color: #000;
+}
+
+#con {
+    height: 162rpx;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    top: 22rpx;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.title {
+    position: relative;
+    line-height: 162rpx;
+    left: 30rpx;
+}
+
+.date {
+    position: relative;
+    bottom: 125rpx;
+    left: 500rpx;
+    font-size: 20rpx;
+    font-family: '微软雅黑 Regular';
+    color: #000;
+}
+
+.cicon {
+    width: 34rpx;
+    height: 33rpx;
+    position: relative;
+    bottom: 90rpx;
+    left: 505rpx;
+}
+
+.ticon {
+    width: 34rpx;
+    height: 33rpx;
+    position: relative;
+    bottom: 153rpx;
+    left: 595rpx;
+}
+
+.cnum {
+    position: relative;
+    bottom: 127rpx;
+    left: 545rpx;
+    font-size: 20rpx;
+    font-family: '微软雅黑 Regular';
+    color: #000;
+}
+
+.tnum {
+    position: relative;
+    bottom: 189rpx;
+    left: 635rpx;
+    font-size: 20rpx;
+    font-family: '微软雅黑 Regular';
+    color: #000;
+}
+
+.topic-test {
+    width: 0rpx;
+}
+
+.test {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 400rpx;
+}
+
+.p-main {
+    position: relative;
+}
+
+.comment {
+    width: 250rpx;
+    height: 54rpx;
+    /* border: 1rpx solid black; */
+    position: absolute;
+    left: 74%;
+    top: 49%;
+}
+
+.comment-ceil {
+    display: inline-block;
+    width: 32rpx;
+    height: 32rpx;
+    /* border: 1px solid black; */
+    margin-right: 14rpx;
+    font-size: 20rpx;
+    font-family: '微软雅黑 Regular';
+    color: #000;
+}
+
+.loading-ceil {
+    width: 100rpx;
+    height: 100rpx;
+    position: fixed;
+    left: 50%;
+    top: 72%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}

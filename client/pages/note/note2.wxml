@@ -1,0 +1,13 @@
+<!--pages/note/note2.wxml-->
+
+<view class="editor">
+<!-- <textarea type="text" placeholder="construction 名词 建筑，建筑学；artist 名词 艺术家，学艺术的人；important 形容词 重要的,紧要的" class="textarea-note"> -->
+
+<textarea type="text" placeholder="{{content}}"   bindinput='inputMethod' class="textarea-note">
+</textarea>
+</view>
+<button class="save" bindtap='show'>
+  <text>保存</text>
+</button>
+
+

@@ -1,0 +1,78 @@
+<!--pages/room/room.wxml-->
+<view class="box">
+    <view class="introduction">
+        <view class="introduction-title clearfix">
+            <text class="title-text0">嘉宾介绍</text>
+
+            <ul class="title-img">
+                <li>
+                    <image src="{{domain}}/assets/images/zhiboing.png" class="title-img1" bindtap='goNow'></image>
+                </li>
+                <li>
+                    <image src="{{domain}}/assets/images/zhiboadd.png" class="title-img2" bindtap='goAdd'></image>
+                </li>
+            </ul>
+
+            <ul class="title-text">
+                <li>
+                    <text class="title-text1">正在播放</text>
+                </li>
+                <li>
+                    <text class="title-text2">发布直播</text>
+                </li>
+            </ul>
+
+
+
+        </view>
+        <navigator url="/pages/room/guest/intro">
+
+            <view class="introduction-image">
+                <ul class="introduction-imageUl">
+                    <li class="introduction-imageLi">
+                        <image src="{{domain}}/assets/images/196zhibo.png" class="introduction-image-img"></image>
+                    </li>
+                    <li class="introduction-imageLi">
+                        <image src="{{domain}}/assets/images/c10.png" class="introduction-image-img"></image>
+                    </li>
+                    <li class="introduction-imageLi">
+                        <image src="{{domain}}/assets/images/zhibo3.png" class="introduction-image-img"></image>
+                    </li>
+                </ul>
+            </view>
+        </navigator>
+    </view>
+
+
+    <view class="video">
+        <view class="video-title">
+            <text>短视频</text>
+        </view>
+        <view>
+            <image src="{{domain}}/assets/images/c11.png" class="video-video"></image>
+        </view>
+        <image src='{{domain}}/assets/images/c12.png' class='bofang'></image>
+        <text class='info'>英语轻松一刻</text>
+    </view>
+
+    <navigator url="/pages/room/roompast">
+        <view class="review">
+            <view class="review-title">
+                <text>往期回顾</text>
+            </view>
+            <view class="review-image">
+                <ul class="review-imageUl">
+                    <li class="review-imageLi">
+                        <image src="{{domain}}/assets/images/zhibo3.png" class="review-image-img"></image>
+                    </li>
+                    <li class="review-imageLi">
+                        <image src="{{domain}}/assets/images/zhibo5.png" class="review-image-img"></image>
+                    </li>
+                    <li class="review-imageLi">
+                        <image src="{{domain}}/assets/images/zhibo1.png" class="review-image-img"></image>
+                    </li>
+                </ul>
+            </view>
+        </view>
+    </navigator>
+</view>

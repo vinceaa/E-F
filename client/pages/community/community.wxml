@@ -1,0 +1,63 @@
+<view class='loading' hidden="{{ifLoading}}">
+    <image class='loading-ceil' src='/images/loading.gif'></image>
+</view>
+
+<view class='bg'>
+    <!-- <image src='http://127.0.0.1/phptest/wxci/assets/uploads/d57cdf3619f191eb0024ab00669f42d2.jpg'></image> -->
+    <view class='back1'>
+        <view class="middle-header">
+            <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+                <block wx:for="{{imgUrls}}" wx:key=''>
+                    <swiper-item>
+                        <image src="{{item}}" class="slide-image" mode="aspectFill" />
+                    </swiper-item>
+                </block>
+            </swiper>
+        </view>
+
+        <view id='topic'>
+            <view id='imgall'>
+                <!-- <navigator url='share/share'> -->
+                <image class='img1' src='{{domain}}/assets/images/share1.png' bindtap='goShare'></image>
+                <!-- </navigator> -->
+                <navigator url='topic/topic' class='topic-test'>
+                    <image class='img2' src='{{domain}}/assets/images/topic.png' bindtap='goTopic'></image>
+                </navigator>
+                <navigator url='rank/rank'>
+                    <image class='img3' src='{{domain}}/assets/images/rank.png'></image>
+                </navigator>
+                <navigator url='involve/involve'>
+                    <image class='img4' src='{{domain}}/assets/images/clock.png'></image>
+                </navigator>
+            </view>
+
+            <view id='textall'>
+                <text class='text1' id='text4'>经验分享</text>
+                <text class='text1' id='text5'>话题</text>
+                <text class='text1' id='text2'>排行榜</text>
+                <text class='text1' id='text3'>我参与的</text>
+            </view>
+        </view>
+
+        <view id='con' wx:for='{{shares}}' bindtap='getDetail' data-id='{{item.share.share_id}}' wx:key='item' class='p-main'>
+            <view class='title test'>{{item.share.share_title }}
+            </view>
+            <view class='date'>{{item.share.share_date}}
+            </view>
+            <!-- <view class='comment'>
+                <image class='cicon' src='{{domain}}/assets/images/comment.png'></image>
+                <view class='cnum'>{{item.reply_num}}</view>
+                <image class='ticon' src='{{domain}}/assets/images/thumb.png'></image>
+                <view class='tnum'>{{item.thumb_num}}</view>
+            </view> -->
+
+            <view class='comment'>
+                <image class='comment-ceil' src='{{domain}}/assets/images/comment.png'></image>
+                 <view class='comment-ceil num-c'>{{item.reply_num}}</view> 
+                <image class='comment-ceil' src='{{domain}}/assets/images/thumb.png'></image>
+                 <view class='comment-ceil num-t'>{{item.thumb_num}}</view> 
+                
+            </view>
+        </view>
+    </view>
+</view>

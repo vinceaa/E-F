@@ -1,0 +1,53 @@
+page {
+    background-color: #f4f4f4;
+}
+
+
+.bg1 {
+    width: 698rpx;
+    margin: 0 auto;
+}
+
+.text1 {
+    /* height:230rpx;  */
+    background-color: #fff;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 22rpx;
+}
+
+.title {
+    font-family: '微软雅黑 Regular';
+    font-size: 40rpx;
+    color: #000;
+    position: relative;
+    top: 30rpx;
+    left: 30rpx;
+}
+
+.content {
+    font-family: '微软雅黑 Regular';
+    font-size: 30rpx;
+    color: #000;
+    position: relative;
+    left: 35rpx;
+    margin-right: 60rpx;
+    padding-bottom: 30rpx;
+    padding-top: 50rpx;
+}
+
+.img1 {
+    width: 697rpx;
+    height: 292rpx;
+    margin-top: 17rpx;
+}
+
+.loading-ceil {
+    width: 100rpx;
+    height: 100rpx;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+

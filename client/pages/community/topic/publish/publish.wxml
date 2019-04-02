@@ -1,0 +1,36 @@
+<view id='bg'>
+    <view id='bg1'>
+        <view class='ipt1'>
+            <input id='title' placeholder='标题' bindinput='onTitleInput'></input>
+        </view>
+        <view>
+            <textarea maxlength='-1' value="{{text}}" class='ipt2' bindinput='onTextInput' placeholder='话题内容'>
+            </textarea>
+            <!-- <button  bindtap="chooseImage">ceui </button> -->
+            <!-- <image bindtap="chooseImage" class='b' src='../../../images/3.png' /> -->
+            <!-- <text class='addimg'>添加图片</text> -->
+            <!-- <image bindtap="chooseImage" class='b' src='{{domain}}/assets/images/pic.png' /> -->
+
+            <view class='wrap-pic'>
+                <image class='b' bindtap="chooseImage" src='{{domain}}/assets/images/pic.png' />
+                <text class='addimg'>添加图片</text>
+
+            </view>
+
+        </view>
+        <view class="submit-div">
+            <button bindtap="submit" class="submit">
+                <text class="note-save">发表</text>
+            </button>
+        </view>
+    </view>
+
+
+
+    <view class='pic-list'>
+        <view class='wrap-list' wx:for='{{pic_list}}' wx:key='item'>
+            <text class='close' bindtap='deleteMethod' data-index="{{index}}">x</text>
+            <image class='pic-ceil' data-src='{{item}}' bindtap='previewMethod' src='{{item}}'></image>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,91 @@
+<view class='loading' hidden="{{ifLoading}}">
+    <image class='loading-ceil' src='/images/loading.gif'></image>
+</view>
+
+<view class='header'>
+    <view class='sencond'>
+        <view class='avatar-second'>
+            <image src="{{second.avatar}}" class="avatar-second avatar"></image>
+        </view>
+        <!-- <view class='rank-pic-second'></view> -->
+        <image src='{{domain}}/assets/images/2.png' class='rank-pic-second'></image>
+        <view class='name-second name'>{{second.username}}</view>
+        <!-- <view class='white-love-second white-love'></view> -->
+        <image src='{{domain}}/assets/images/love_white.png' class='white-love-second white-love'></image>
+        <view class='second-love-num num'>{{second.love_num}}</view>
+    </view>
+    <view class='champion'>
+        <view class='avatar-champion'>
+            <image src="{{champion.avatar}}" class="avatar-champion avatar"></image>
+        </view>
+        <!-- <view class='rank-pic-champion'></view> -->
+        <image src='{{domain}}/assets/images/champion.png' class='rank-pic-second rank-pic-champion'></image>
+
+        <view class='name-champion name'>{{champion.username}}</view>
+        <!-- <view class='white-love-champion white-love'></view> -->
+        <image src='{{domain}}/assets/images/love_white.png' class='white-love-champion white-love'></image>
+
+        <view class='champion-love-num num'>{{champion.love_num}}</view>
+    </view>
+    <view class='third'>
+        <view class='avatar-third'>
+            <image src="{{third.avatar}}" class="avatar-third avatar"></image>
+        </view>
+        <!-- <view class='rank-pic-third'></view> -->
+        <image src='{{domain}}/assets/images/3.png' class='rank-pic-third'></image>
+
+        <view class='name-third name'>{{third.username}}</view>
+        <!-- <view class='white-love-third white-love'></view> -->
+        <image src='{{domain}}/assets/images/love_white.png' class='white-love-third white-love'></image>
+
+        <view class='third-love-num num'>{{third.love_num}}</view>
+    </view>
+</view>
+
+<view class="board">
+    <!-- <view class="{{friend_active}} friend-rank b" bindtap='get_list_friends'>
+        好友排行
+    </view> -->
+    <view class="{{all_active}} all-rank b" bindtap='get_list_all'>
+        全部排行
+    </view>
+</view>
+
+
+<view class="user-list b">
+    <view class="index-info b">
+        我
+    </view>
+    <image src="{{me.avatar}}" class='user-avatar b' />
+    <view class="user-detail">
+        <view class="user-name b">
+            {{me.username}}
+        </view>
+        <view class="user-rank b">
+            第 {{me.hot}} 名
+        </view>
+    </view>
+    <view class="love-num">
+        {{me.love_num}}
+    </view>
+    <image src="{{domain}}/assets/images/love_red.png" class='love-red b' />
+    <view class="user-underline-my"></view>
+</view>
+
+<view class="user-list b" wx:for="{{other}}" wx:key='item'>
+    <view class="index-info b">
+        {{item.hot}}
+    </view>
+    <image src="{{item.avatar}}" class='user-avatar b' />
+    <view class="user-detail">
+        <view class="user-name-o b">
+            {{item.username}}
+        </view>
+    </view>
+    <view class="love-num">
+        {{item.love_num}}
+    </view>
+    <image src="{{domain}}/assets/images/love_red.png" class='love-red b' />
+    <view class="user-underline-other"></view>
+</view>
+

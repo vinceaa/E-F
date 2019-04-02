@@ -1,0 +1,32 @@
+<view class='loading' hidden="{{ifLoading}}">
+    <image class='loading-ceil' src='/images/loading.gif'></image>
+</view>
+
+<!-- 新的布局 -->
+<view class="main b">
+    <view class="search b">
+        <view class="search-bar">
+            <image src="{{domain}}/assets/images/search.png" class='icon-s' />
+            <input type="input" name="name" value="" class='search-input' placeholder="输入关键字进行搜索" bindinput='inputMethod' />
+        </view>
+        <image src="{{domain}}/assets/images/add.png" class='add-button b' bindtap='addMethod' />
+    </view>
+
+    <view class="topic-list" wx:for='{{shares}}' wx:key='item'>
+        <image src="{{item.share.avatar}}" class="user-avatar b" />
+        <view class="user-info b">
+            <span class='user-name b'>{{item.share.username}}</span>
+            <view class="topic-content b" bindtap='goDetail' data-id='{{item.share.share_id}}'>
+                {{item.share.share_title }}
+            </view>
+        </view>
+        <view class="time">{{item.share.share_date}}</view>
+        <view class="icon-two b">
+            <image src="{{domain}}/assets/images/comment.png" class="icon-comment b" />
+            <span class='comment-num'>{{item.reply_num}}</span>
+            <image src="{{domain}}/assets/images/thumb.png" class="icon-thumb b" />
+            <span class='thumb-num'>{{item.thumb_num}}</span>
+        </view>
+    </view>
+
+</view>

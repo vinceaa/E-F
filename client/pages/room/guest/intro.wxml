@@ -1,0 +1,18 @@
+<!--pages/room/guest/intro.wxml-->
+
+
+<view class='main'>
+    <image src='{{domain}}/assets/images/c10.png' class='cover b'></image>
+    <view class='text'>
+        <view class='m'>姓名：吴莫愁（韦林文化创始人）</view>
+        
+        <view class='m'>人物荣誉</view>
+        <text class='ceil'>2017年5月4日，被评为全国创新创业好青年。</text>
+
+        <view class='m'>人物简介</view>
+        
+        <text class='ceil'>朱伟是百万册畅销英语词汇系列书籍及网课《恋练有词》作者，曾获新浪微博自媒体大奖。2016年，创造在线教育业内最高的单小时直播课</text>
+        
+        
+    </view>
+</view>

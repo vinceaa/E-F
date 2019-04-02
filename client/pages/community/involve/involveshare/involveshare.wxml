@@ -1,0 +1,18 @@
+<!-- <view class="involve-top"></view>
+
+<navigator  wx:for="{{shares}}" url='../../sharedetail/sharedetail?shareId={{item.shareId}}'>
+    <view class='rec'>{{item.content}}
+    </view>
+</navigator> -->
+
+<view class='bg'>
+    <view class='back'>
+        <view class='history' wx:for='{{shares}}' wx:key='item' data-id="{{item.share_id}}" bindtap='goDetail'>
+            <view class='title test'>{{item.share_title}}</view>
+            <view class='date'>{{item.share_date}}</view>
+            <!-- <view class='content'>
+                <view class='test'>{{item.share_content}}</view>
+            </view> -->
+        </view>
+    </view>
+</view>

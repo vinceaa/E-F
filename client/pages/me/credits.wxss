@@ -1,0 +1,141 @@
+/* pages/me/credits.wxss */
+
+.div {
+    height: 38rpx;
+    background: #f5f5f5;
+    border-top: 3rpx #ccc solid;
+    border-bottom: 3rpx #ccc solid;
+}
+
+.user-top {
+    padding: 15rpx 15rpx;
+    height: 290rpx;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.user-img {
+    width: 180rpx;
+    height: 180rpx;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 8rpx solid #e3f2fd;
+}
+
+.radius {
+    border-radius: 300rpx;
+    height: 194rpx;
+    width: 194rpx;
+    position: absolute;
+    top: 50%;
+    margin-top: -97rpx;
+}
+
+.top-bottom {
+    width: 720rpx;
+    margin-left: 10rpx;
+    background: #eee;
+    height: 3rpx;
+}
+
+.user-font {
+    font-size: 25rpx;
+}
+
+.credits-img {
+    width: 80rpx;
+    height: 80rpx;
+    display: block;
+    /* padding:35rpx; */
+}
+
+.tiao{
+    width: 430rpx;
+    height: 20rpx;
+    /* display: block; */
+    /* padding:35rpx; */
+    border:2rpx solid #dddddd;
+    border-radius: 13%;
+    position: relative;
+}
+.bian{
+    /* width: 430rpx; */
+    height: 20rpx;
+    /* display: block; */
+    /* padding:35rpx; */
+    border:2rpx solid #dddddd;
+    border-radius: 13%;
+    position: relative;
+    background-color: orange;
+}
+
+.credits-num {
+    color: #ff7e00;
+    font-size: 90rpx;
+}
+
+.credits-num2 {
+    color: #ff7e00;
+}
+
+.me-details {
+    height: 53rpx;
+    padding: 15rpx 15rpx;
+}
+
+.top-bottom {
+    width: 720rpx;
+    margin-left: 10rpx;
+    background: #eee;
+    height: 3rpx;
+}
+
+.credits-fonts {
+    font-size: 25rpx;
+}
+
+#dw {
+    color: coral;
+}
+
+.box {
+    width: 86%;
+    margin: 0 auto;
+}
+
+.user-img-title {
+    width: 100%;
+    height: 100%;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.credits {
+    width: 416rpx;
+    position: absolute;
+    left: 36%;
+    top: 30%;
+}
+
+text {
+    font-size: 30rpx;
+}
+
+.uname {
+    position: absolute;
+    left: 33rpx;
+    font-size: 45rpx;
+}
+
+.icon-details {
+    width: 48rpx;
+    height: 53rpx;
+    float: right;
+    margin-top: 0rpx;
+}

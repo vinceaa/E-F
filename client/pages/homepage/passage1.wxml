@@ -1,0 +1,31 @@
+<view class='loading' hidden="{{ifLoading}}">
+    <image class='loading-ceil' src='/images/loading.gif'></image>
+</view>
+
+<view class='bg'>
+    <view class='bg1'>
+        <view class='img'>
+            <!-- <image src='../../../images/passage1.jpg' class='img1'></image> -->
+        </view>
+        <view class='text1' wx:for='{{[0]}}' wx:key='item'>
+            <view class='title'>{{share.share_title}}</view>
+            <view class='content'>
+                <!-- {{item.content}} -->
+                <import src="/towxml/entry.wxml" />
+                <template is="entry" data="{{...article}}" />
+            </view>
+        </view>
+
+
+
+        <!-- 正确的渲染  -->
+
+        <!-- <view class='img'>
+            <image src='.{{experience.cover}}' class='img1'></image>
+        </view>
+         <view class='text1'>
+            <view class='title'>{{experience.title}}</view>
+            <view class='content'>{{experience.content}}</view>
+        </view>  -->
+    </view>
+</view>

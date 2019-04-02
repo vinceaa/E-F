@@ -1,0 +1,27 @@
+<!-- <view class="involve-top"></view>
+
+<view class="involve-mid">
+  <navigator url='/pages/community/involve/involvetopic/involvetopic'>
+  <image src="/images/share.png" class="image-share"></image>
+  <text class='rec'>
+  我参与的话题
+  </text>
+  </navigator>
+</view>
+
+<view class="involve-mid">
+  <navigator url='/pages/community/involve/involveshare/involveshare'>
+    <image src="/images/comment.png" class="image-share"></image>
+  <text class='rec'>
+  我评论的分享
+  </text>
+  </navigator>
+</view> -->
+
+
+<view class='join-main'>
+    <image src='{{domain}}/assets/images/ijoin.png' class='join'></image>
+    <view class='box-join' bindtap='join'>参与的话题</view>
+    <image src='{{domain}}/assets/images/ishare.png' class='join'></image>
+    <view class='box-join' bindtap='share'>评论的分享</view>
+</view>

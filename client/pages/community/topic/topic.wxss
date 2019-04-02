@@ -1,0 +1,282 @@
+/* #top{
+  width: 700rpx;
+  height: 200rpx;
+  margin: 25rpx;
+  background-color: #E3F2FD;
+  border-radius: 100rpx;
+}
+#publish{
+  width: 160rpx;
+  height: 40rpx;
+  top: 80rpx;
+  left: 270rpx;
+  font-size: 32rpx;
+  position: relative;
+}
+#topic{
+  width: 700rpx;
+  height: 1000rpx;
+  margin: 25rpx;
+  background-color: #E3F2FD;
+}
+.item{
+  width: 700rpx;
+  height: 400rpx;
+  background-color: white;
+  display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.splitbar{
+  background-color: #E3F2FD;
+  width: 100%;
+  height: 30rpx;
+}
+.himage{
+  width:60rpx;
+  height:60rpx;
+  position: relative;
+  margin: 20rpx;
+  background-color: white;
+}
+.info{
+  width: 550rpx;
+  height: 330rpx;
+  margin-top: 20rpx;
+  background-color: white;
+  position: relative;
+}
+.userid{
+  font-size: 28rpx;
+  width: 100%;
+  height: 30rpx;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+  background-color: white;
+}
+.tinfo{
+  width: 100%;
+  height: 200rpx;
+  background-color: white;
+}
+.title{
+  width: 100%;
+  height: 40rpx;
+  margin-bottom: 20rpx;
+  background-color: #E3F2FD;
+  font-size: 28rpx;
+}
+.previewcontent{
+  width: 100%;
+  height: 140rpx;
+  background-color: #E3F2FD;
+  font-size: 25rpx;
+}
+.date{
+  width: 180rpx;
+  height: 20rpx;
+  margin-top: 20rpx;
+  font-size: 20rpx;
+  background-color: white;
+  float: left;
+  color: grey;
+}
+.comment{
+  width: 140rpx;
+  height: 20rpx;
+  margin-top: 20rpx;
+  margin-left: 230rpx;
+  background-color: white;
+  float: left;
+}
+.cicon{
+  width: 20rpx;
+  height: 20rpx;
+  float: left;
+}
+.ticon{
+  width: 20rpx;
+  height: 20rpx;
+  float: left;
+}
+.cnum{
+  width: 40rpx;
+  height: 20rpx;
+  float: left;
+  margin-left: 10rpx;
+  background-color: white;
+  font-size: 20rpx;
+  color: grey;
+}
+.tnum{
+  width: 40rpx;
+  height: 20rpx;
+  float: left;
+  margin-left: 10rpx;
+  background-color: white;
+  font-size: 20rpx;
+  color: grey; 
+} */
+
+/* 新的 css  */
+
+/* html * {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+} */
+
+page {
+    height: 100%;
+    background: #f4f4f4;
+}
+
+.b {
+    /*border: 1px solid black;*/
+}
+
+.main {
+    background: #f4f4f4;
+    height: 100%;
+}
+
+.search {
+    height: 94rpx;
+    position: relative;
+}
+
+.search-bar {
+    width: 587rpx;
+    position: absolute;
+    height: 64rpx;
+    margin-left: 45rpx;
+    margin-top: 21rpx;
+    background: #fff;
+    border-radius: 40rpx;
+}
+
+.search-input {
+    position: relative;
+    left: 89rpx;
+    height: 60rpx;
+    font-size: 30rpx;
+    outline: none;
+    width: 447rpx;
+    border: none;
+    top: -45rpx;
+}
+
+.icon-s {
+    margin-left: 36rpx;
+    width: 30rpx;
+    height: 30rpx;
+    position: relative;
+    top: 9rpx;
+}
+
+.add-button {
+    position: absolute;
+    width: 69rpx;
+    height: 62rpx;
+    display: inline-block;
+    right: 23rpx;
+    top: 21rpx;
+}
+
+.topic-list {
+    width: 704rpx;
+    height: 258rpx;
+    margin-left: 26rpx;
+    position: relative;
+    margin-top: 26rpx;
+    background: #fff;
+    border-radius: 20rpx;
+}
+
+.topic-list:first-child {
+    top: 20rpx;
+}
+
+.user-avatar {
+    position: absolute;
+    margin-left: 16rpx;
+    width: 100rpx;
+    height: 100rpx;
+    margin-top: 12rpx;
+    border-radius: 50%;
+}
+
+.time {
+    position: absolute;
+    bottom: 10rpx;
+    margin-left: 30rpx;
+    font-size: 20rpx;
+}
+
+.icon-two {
+    position: absolute;
+    width: 177rpx;
+    height: 56rpx;
+    right: 0rpx;
+    bottom: 0rpx;
+}
+
+.icon-comment, .icon-thumb {
+    position: relative;
+    display: inline-block;
+    width: 35rpx;
+    height: 40rpx;
+}
+
+.icon-thumb {
+    margin-left: 40rpx;
+}
+
+.user-info {
+    position: absolute;
+    left: 137rpx;
+    height: 200rpx;
+    width: 560rpx;
+}
+
+.user-name {
+    position: relative;
+    left: 30rpx;
+    top: 30rpx;
+    font-size: 30rpx;
+}
+
+.topic-content {
+    position: relative;
+    height: 120rpx;
+    width: 530rpx;
+    left: 30rpx;
+    top: 30rpx;
+    color: #42aff4;
+    font-size: 30rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 120rpx;
+}
+
+.comment-num, .thumb-num {
+    margin-left: 10rpx;
+    font-size: 20rpx;
+}
+
+.loading-ceil {
+    width: 100rpx;
+    height: 100rpx;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}

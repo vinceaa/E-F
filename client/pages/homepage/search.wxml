@@ -1,0 +1,90 @@
+<view class="search">
+    <input class="search-page" type="text" bindinput='infoInput' placeholder="请输入需要翻译的文本">
+    </input>
+</view>
+<view class="search-header">
+</view>
+<view class="wrapper">
+    <button class="buutton" bindtap='fy'>
+        <text class="trans">翻译</text>
+    </button>
+    <button class="buutton" bindtap='creatTerms'>创建词条</button>
+    <!-- {{query}}  -->
+    <!-- <open-data type="userAvatarUrl"></open-data>  -->
+    <!-- 用户头像调用 -->
+</view>
+<view class="search-header">
+</view>
+<view class="web">
+</view>
+
+<scroll-view scroll-y>
+    <view wx:if='{{result}}' class="dictionary">
+        <view class="diction">
+            <view class="dic">
+                <text class="explain">释义：</text>
+            </view>
+            <view wx:if='{{result.phonetic}}' class="show-dic">
+                /{{result.phonetic}}/
+            </view>
+            <view class="show-dic">
+                <view wx:for='{{explain?explain:trans}}' class="show-dic" wx:key="this">
+                    <view class="show-dic">
+                        {{item}}
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="web">
+        </view>
+        <view class="sep"></view>
+        <view class="search-header">
+        </view>
+
+
+        <view class="more">
+            <view class='explain' bindtap='lookTerms'>查看关于本词的词条分享</view>
+        </view>
+        <view class="search-header">
+        </view>
+<!-- 
+
+        <view class="more">
+            <view wx:if="{{myrecord}}">
+                <view class='explain' bindtap='onListenRecord'>我的发音</view>
+            </view>
+            <view wx:else>
+                <view class='explain' wx:if="{{onrecord}}" bindtap='onRecordStop'>停止录音</view>
+                <view class='explain' wx:else bindtap='onRecordMy'>录制发音</view>
+            </view>
+        </view> -->
+
+
+
+
+
+
+
+        <!-- <view class="search-header">
+        </view> -->
+
+        <!-- <view class="more">
+            <view wx:if="{{showrecord}}">
+                <view class='explain' bindtap='onFoldRecord'>点击收起用户发音</view>
+                <scroll-view scroll-y style='height:{{userrecord.length*150}}rpx'>
+                    <view class='item'>
+                        <view wx:for="{{records}}" wx:key="this" data-index="{{index}}" bindtap='onListenUserRecord' class="then-top">
+                            <text class='font-then'>"{{item.nickname}}"</text>
+                            <view class="sep-then"></view>
+                            <view class="sep-then"></view>
+                            <view class="sep-then"></view>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+            <view class='explain' wx:else bindtap='onShowRecord'>点击查看用户发音</view>
+        </view> -->
+    </view>
+
+</scroll-view>

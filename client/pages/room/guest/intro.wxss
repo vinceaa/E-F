@@ -1,0 +1,37 @@
+.main {
+    position: relative;
+}
+
+.b {
+    /* border: 1px solid black; */
+}
+
+.cover {
+    width: 673rpx;
+    height: 596rpx;
+    border-radius: 5rpx;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 20rpx;
+}
+
+.text {
+    position: relative;
+    margin-top: 50rpx;
+    left: 40rpx;
+}
+
+.m {
+    font-size: 38rpx;
+    font-weight: bold;
+    margin-bottom:23rpx;
+}
+
+.ceil {
+    font-size: 30rpx;
+    width: 680rpx;
+    display: block;
+    margin-top:26rpx;
+    margin-bottom:17rpx;
+}

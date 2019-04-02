@@ -1,0 +1,59 @@
+
+page {
+  background-color: #f4f4f4;
+}
+
+.back {
+  width: 690rpx;
+  margin: 0 auto;
+}
+
+.history {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  top: 18rpx;
+  margin-bottom: 24rpx;
+  padding-bottom: 30rpx;
+}
+
+.title {
+  font-family: '微软雅黑 Regular';
+  font-size: 38rpx;
+  color: #000;
+  position: relative;
+  left: 22rpx;
+  padding-top:18rpx;
+  font-weight: blod;
+  top: 18rpx;
+}
+
+.date {
+  font-family: '微软雅黑 Regular';
+  font-size: 20rpx;
+  color: #000;
+  position: relative;
+  left: 467rpx;
+  bottom: 10rpx;
+}
+
+.content {
+  font-family: '微软雅黑 Regular';
+  font-size: 20rpx;
+  color: #000;
+  position: relative;
+  margin-left: 22rpx;
+  margin-right: 22rpx;
+}
+
+
+
+.test {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  width:400rpx;
+}
+
+
+/* search 结果  */

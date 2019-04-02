@@ -1,0 +1,52 @@
+<!--pages/wxml/index.wxml-->
+
+<view class='loading' hidden="{{ifLoading}}">
+    <image class='loading-ceil' src='/images/loading.gif'></image>
+</view>
+<button bindtap='goPubish' hidden="{{ifHidden}}">点击进入管理员发表推荐内容</button>
+<view class="middle-header"></view>
+<view class="top">
+    <image src='{{domain}}/assets/images/search.png' class='searchImg'></image>
+    <navigator url="../homepage/search" class='nav'>
+        <input class="search" type="text" placeholder="请输入需要翻译的文本" placeholder-class="center" disabled='true'>
+        </input>
+    </navigator>
+</view>
+<view class="middle-header"></view>
+<swiper class="swiper box" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+
+
+    <!-- 遍历 JSON 返回结果 -->
+    <block wx:for="{{imgUrls}}" wx:key='*this'>
+        <swiper-item>
+            <image src="{{item}}" class="slide-image" mode="aspectFill" />
+        </swiper-item>
+    </block>
+
+
+</swiper>
+
+
+
+<view class="scroll box">
+    <view class="middle">
+        <view class="middle-top">
+            <text class="recommand">每日甄选推荐</text>
+        </view>
+
+
+        <!-- 遍历 JSON 返回结果 -->
+        <view class="middle-footer" wx:for='{{shares}}' wx:key='*this'>
+            <navigator url="passage1?passageId={{item.share.share_id}}">
+                <view class="homepage-middle">
+                    <image class="image" src="{{item.share.share_cover}}"></image>
+                    <view class='content'>{{item.share.share_title }}</view>
+                </view>
+            </navigator>
+            <view class='admin' hidden="{{ifHidden}}">
+                <text class='admin-ceil' bindtap='editMethod' data-id="{{item.share.share_id}}">编辑</text>
+                <text class='admin-ceil' bindtap='deleteMethod' data-id="{{item.share.share_id}}">删除</text>
+            </view>
+        </view>
+    </view>
+</view>

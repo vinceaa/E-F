@@ -1,0 +1,35 @@
+<!--pages/room/room.wxml-->
+<!-- <text>pages/room/room.wxml</text> -->
+<view class='bg'>
+    <view class='back' bindtap='godetail'>
+        <image class='imgb' src='{{domain}}/assets/images/zhibo1.png'>
+            <image class='imga' src='{{domain}}/assets/images/zhibo2.png'></image>
+            <view class='name'>邂逅英语</view>
+            <view class='tuijian'>智能推荐</view>
+        </image>
+
+        <image class='imgc' src='{{domain}}/assets/images/zhibo3.png'>
+            <image class='imgd' src='{{domain}}/assets/images/zhibo4.png'></image>
+            <view class='clickname'>邂逅英语</view>
+            <view class='clicknum'>12.3W</view>
+        </image>
+
+        <image class='imge' src='{{domain}}/assets/images/zhibo5.png'>
+            <image class='imgf' src='{{domain}}/assets/images/zhibo4.png'></image>
+            <view class='clickname1'>邂逅英语</view>
+            <view class='clicknum1'>12.3W</view>
+        </image>
+
+        <image class='imgg' src='{{domain}}/assets/images/zhibo6.png'>
+            <image class='imgh' src='{{domain}}/assets/images/zhibo4.png'></image>
+            <view class='clickname2'>邂逅英语</view>
+            <view class='clicknum2'>12.3W</view>
+        </image>
+
+        <image class='imgi' src='{{domain}}/assets/images/zhobo7.png'>
+            <image class='imgj' src='{{domain}}/assets/images/zhibo4.png'></image>
+            <view class='clickname3'>邂逅英语</view>
+            <view class='clicknum3'>12.3W</view>
+        </image>
+    </view>
+</view>

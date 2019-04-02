@@ -1,0 +1,65 @@
+<view id='bg'>
+    <view id='bg1'>
+        <view class='ipt1'>
+            <input id='title' placeholder='标题' bindinput='onTitleInput'></input>
+        </view>
+        <view>
+            <textarea maxlength='-1' value="{{text}}" class='ipt2' bindinput='onTextInput' placeholder='话题内容'>
+            </textarea>
+
+            <!-- <image bindtap="{{chooseImageCover}}" class='b' src='{{domain}}/assets/images/pic.png' />
+            <text class='addimg'>添加封面</text>
+            <image bindtap="chooseImage" class='b' src='{{domain}}/assets/images/pic.png' />
+            <text class='addimg'>添加图片</text>
+            <view class='admin-slide'>
+                <image bindtap="chooseSlideHome" class='b' src='{{domain}}/assets/images/pic.png' />
+                <text class='addimg s sn'>添加首页四张轮播图</text>
+                <text class='addimg s t' bindtap='okHome'>确认</text>
+
+
+                <image bindtap="chooseSlideComu" class='b bn' src='{{domain}}/assets/images/pic.png' />
+                <text class='tts'>添加社区四张轮播图</text>
+                <text class='addimg t tn' bindtap='okComu'>确认</text>
+
+
+            </view> -->
+
+            <view class='pic-set'>
+                <view class='pic1'>
+                    <image bindtap="{{chooseImageCover}}" class='pic1-ceil' src='{{domain}}/assets/images/pic.png' />
+                    <text class='info'>添加封面</text>
+                </view>
+                <view class='pic2'>
+                    <image bindtap="chooseImage" class='pic2-ceil' src='{{domain}}/assets/images/pic.png' />
+                    <text class='info'>添加图片</text>
+                </view>
+                <view class='pic3'>
+                    <image bindtap="chooseSlideHome" class='pic3-ceil' src='{{domain}}/assets/images/pic.png' />
+                    <text class='info h'>添加首页四张轮播图</text>
+                    <text class='addimg t tn' bindtap='okHome'>确认</text>
+                </view>
+                <view class='pic4'>
+                    <image bindtap="chooseSlideComu" class='pic4-ceil' src='{{domain}}/assets/images/pic.png' />
+                    <text class='info c'>添加社区四张轮播图</text>
+                    <text class='addimg t tn' bindtap='okComu'>确认</text>
+                </view>
+
+            </view>
+
+        </view>
+        <view class="submit-div">
+            <button bindtap="submit" class="submit">
+                <text class="note-save">发表</text>
+            </button>
+        </view>
+    </view>
+
+
+
+    <view class='pic-list'>
+        <view class='wrap-list' wx:for='{{pic_list}}' wx:key='item'>
+            <text class='close' bindtap='deleteMethod' data-index="{{index}}">x</text>
+            <image class='pic-ceil' data-src='{{item}}' bindtap='previewMethod' src='{{item}}'></image>
+        </view>
+    </view>
+</view>

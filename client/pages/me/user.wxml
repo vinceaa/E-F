@@ -1,0 +1,77 @@
+<!--pages/me/user.wxml-->
+<view class="user-top box">
+    <view class="radius">
+        <view class="user-img">
+            <image src="{{domain}}/assets/images/me01.png"></image>
+            <open-data type="userAvatarUrl"></open-data>
+        </view>
+        <view class="text">
+            <p style="font-size:45rpx;">{{listarr.name}}</p>
+        </view>
+        <view class="text">
+            <p style="font-size:20rpx;color:grey;">{{listarr.info}}</p>
+        </view>
+    </view>
+    <!--  <input value="{{listarr.name}}" class="name"></input> -->
+
+    <ul class="datalist clearfix">
+        <li>{{listarr.score}}</li>
+        <li>{{listarr.fans_num}}</li>
+        <li>{{listarr.publish_num}}</li>
+    </ul>
+    <ul class="dataname clearfix">
+        <li>收益</li>
+        <li>粉丝</li>
+        <li>发布</li>
+    </ul>
+
+
+</view>
+
+
+<view class="div"></view>
+
+<view class="user-footer1 ">
+    <view class="list">
+        昵称：<text class="user-font pos">{{listarr.name}}</text>
+        <view class="top-bottom"></view>
+
+    </view>
+    <view class="top-bottom"></view>
+    <view class="list">
+        性别：<text class="user-font pos">{{listarr.sex}}</text>
+        <view class="top-bottom"></view>
+
+    </view>
+    <view class="top-bottom"></view>
+    <view class="list">
+        生日：<text class="user-font pos"> {{listarr.birthday}}</text>
+        <view class="top-bottom"></view>
+
+    </view>
+</view>
+<view class="div"></view>
+<view class="user-footer2 ">
+    <view class="top-bottom"></view>
+    <view class="list">
+        职业：<text class="user-font pos">{{listarr.career}}</text>
+    </view>
+    <view class="top-bottom"></view>
+    <view class="list">
+        学校：<text class="user-font pos">{{listarr.school}}</text>
+    </view>
+    <view class="top-bottom"></view>
+    <view class="list">
+        所在地：<text class="user-font pos">{{listarr.place}}</text>
+    </view>
+    <view class="top-bottom"></view>
+    <view class="list">
+       个人说明： <text class="user-font pos">{{listarr.info}}</text>
+    </view>
+
+    <view class="top-bottom"></view>
+
+
+
+</view>
+<view class="div"></view>

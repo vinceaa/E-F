@@ -1,0 +1,10 @@
+<view class='bg'>
+  <view class='back'>
+    <view class='history' wx:for='{{shares}}' wx:key='item' bindtap='goDetail' data-id='{{item.share_id}}'>
+      <view class='title test'>{{item.share_title}}</view>
+      <view class='date'>{{item.share_date}}</view>
+      <!-- <view class='content'><view>{{item.share_content}}</view></view> -->
+    </view>
+  </view>
+</view>
+

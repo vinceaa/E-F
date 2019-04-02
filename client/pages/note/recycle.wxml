@@ -1,0 +1,23 @@
+<!--pages/note/recycle.wxml-->
+
+<!-- <view class="draft">
+    <view url="" bindtap='show' wx:for="{{recycle}}" data-recycle-id='{{item.recycleId}}'>
+        <view class="drafts">
+            <textarea class="{{item.content}}">{{item.content}}</textarea>
+        </view>
+    </view>
+
+
+</view> -->
+
+
+
+<view class='bg'>
+  <view class='back'>
+    <view class='history' wx:for='{{drafts}}' wx:key='item' data-id='{{item.note_id}}'  bindtap='show'>
+      <view class='title test'>{{item.note_title}}</view>
+      <view class='date'>{{item.note_date}}</view>
+      <view class='content test'><view>{{item.note_content}}</view></view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+<!--pages/me/rules.wxml-->
+<view class="rules">
+ <text class="credits-regular">积分规则：</text>
+</view>
+<view class="rules">
+  <view>
+  <text class="regular">1.每日登录+5；</text>
+  </view>
+  <view>
+  <text class="regular">2.点赞评论每次+2，每日上限五次，其中精选评论每次可加5；</text>
+  </view>
+  <view>
+  <text class="regular">3.发帖每次+5，精选帖+10，每日上限3次；</text>
+  </view>
+  <view>
+  <text class="regular">4.词条解释、相关发音、做例句每次+6，词条相关帖每次+10，精选双倍奖励，次数不限；</text>
+  </view>
+  <view>
+  <text class="regular">5.发起相关话题得到讨论人数每增加10人获得30积分；</text>
+  </view>
+  <view>
+  <text class="regular">6.每次分享+5，被分享用户使用小程序获得额外加分5；</text>
+  </view>
+  <view>
+  <text class="warnning">注意：每人每日上限100！</text>
+  </view>
+</view>
+
+
+

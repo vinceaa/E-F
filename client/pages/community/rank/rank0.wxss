@@ -1,0 +1,97 @@
+
+#box1{
+  width: 100%;
+  height: 100rpx;
+}
+#box2{
+  height: 86rpx;
+  width: 700rpx;
+  margin: 14rpx 25rpx 0rpx 25rpx;
+  background-color: 	#E3F2FD;
+}
+.rank{
+  width: 230rpx;
+  height: 74rpx;
+  text-align: center;
+  /* background-color: #1E90FF; */
+  float: left;
+  border-radius: 20rpx;
+}
+#frank{
+  margin: 6rpx 40rpx 6rpx 80rpx;
+}
+#arank{
+  margin: 6rpx 80rpx 6rpx 40rpx;
+}
+.ranktext{
+  margin-top: 22rpx;
+  font-size: 30rpx;
+}
+
+
+#ranklist{
+  width: 700rpx;
+  height: 1000rpx;
+  margin-left: 25rpx;
+  /*background-color: white;*/
+}
+.rnklst{
+  width: 349rpx;
+  height: 1000rpx;
+  float: left;
+}
+#list1{
+  border-right: solid 1rpx #E3F2FD;
+}
+#list2{
+  border-left: solid 1rpx #E3F2FD;
+}
+.himage{
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+}
+.item{
+  width: 100%;
+  height: 50rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+.rnum{
+  width: 40rpx;
+  height: 50rpx;
+  float: left;
+}
+.name{
+  width: 200rpx;
+  height: 50rpx;
+  float: left;
+  margin-left: 20rpx;
+  font-size:30rpx;
+}
+.hot{
+  color:#ff0036;
+}
+.less-hot{
+  color:coral;
+}
+.little-hot{
+  color:bisque;
+}
+
+/* 新的 CSS  */
+
+.header {
+    width: 100%;
+    height: 480rpx;
+    border: 1px solid black;
+    background: #E3F2FD;
+}
+
+
+
+
+
+
+
+

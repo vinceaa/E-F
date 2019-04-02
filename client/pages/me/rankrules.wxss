@@ -1,0 +1,26 @@
+/* pages/me/rankrules.wxss */
+.rules{
+  padding:15rpx 15rpx;
+}
+.credits-regular{
+  font-size:33rpx;
+  color:blueviolet;
+}
+.regular{
+  font-size:25rpx;
+  color:chocolate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

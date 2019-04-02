@@ -1,0 +1,80 @@
+<!--pages/me/credits.wxml-->
+<view class="user-top box" > 
+  <view class="radius">
+    <view class="user-img">
+    <image src="{{avatar}}" class="user-img-title"></image>
+      <open-data type="userAvatarUrl"></open-data>
+     
+    </view>
+     <text class='uname'>{{username}}</text>
+  </view>
+
+  <view class="credits box">
+  <text>积分数目：</text>
+     <text class="credits-num">{{score}}</text>
+    <!-- <image src="/images/jindutiao.png" class="credits-img2"></image> -->
+    <view class='tiao'>
+       <!-- <view class='bian' style='width:{{credits.width}}rpx;'></view>  -->
+      <view class='bian' style='width: {{width}}%'></view>
+    </view>
+    <text>当前段位： </text>
+    <text class='credits-num2'>{{duanwei}}</text>
+ 
+    
+  </view> 
+
+</view>
+<view class="div"></view>
+<view class='box'>
+  <view class="me-details">
+    
+    <text class="credits-fonts">当前段位：</text>
+     <text class="credits-fonts" id="dw">{{duanwei}}</text>
+     <image src="/images/details.png" class="icon-details"></image>
+  </view>
+  <view class="top-bottom"></view>
+  <navigator url="/pages/community/rank/rank">
+    <view class="me-details">
+      <text class="credits-fonts">排行榜</text>
+         <image src="/images/details.png" class="icon-details"></image>
+    </view>
+  </navigator>
+  <view class="top-bottom"></view>
+  <navigator url="/pages/me/rules">
+    <view class="me-details">
+      <text class="credits-fonts">积分规则</text>
+         <image src="/images/details.png" class="icon-details"></image>
+    </view>
+  </navigator>
+  <view class="top-bottom"></view>
+  <navigator url="/pages/me/rankrules">
+    <view class="me-details">
+      <text class="credits-fonts">排行规则</text>
+         <image src="/images/details.png" class="icon-details"></image>
+    </view>
+  </navigator>
+  <view class="top-bottom"></view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+/* pages/homepage/then.wxss */
+.wrap{
+  width:755rpx;
+  height:15rpx;
+  background:whitesmoke;
+}
+.then{
+  width:100%;
+  background:#eeeeee;
+  height:1200rpx;
+}
+.then-top{
+  width:725rpx;
+  background:white;
+  /* padding:25rpx; */
+  padding:15rpx;
+}
+.font{
+  color:cornflowerblue;
+  font-weight:bold;
+  font-size:35rpx;
+}
+.sep-then{
+  width:750rpx;
+  height:1rpx;
+  background:#eeeeee;
+}
+.font-then{
+  font-size:30rpx;
+}
+.then-fonts{
+  font-size:25rpx;
+}
+
+
+
+
+
+
+
+
+
+
